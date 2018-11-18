@@ -13,7 +13,7 @@ from datetime import datetime
 from operator import itemgetter
 
 
-rds = boto3.client('rds', region_name=os.getenv('REGION', 'us-west-2'))
+rds = boto3.client('rds', region_name=os.getenv('REGION', 'us-east-1'))
 
 log_state = dict()
 
