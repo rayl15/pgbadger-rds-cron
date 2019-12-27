@@ -1,0 +1,24 @@
+2018-11-15 19:00:19 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:00:19 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.153 s, sync=0.002 s, total=0.165 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:05:20 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:05:20 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.153 s, sync=0.002 s, total=0.165 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:10:20 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:10:20 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.155 s, sync=0.002 s, total=0.167 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:15:20 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:15:20 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.152 s, sync=0.002 s, total=0.164 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:20:20 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:20:20 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.154 s, sync=0.002 s, total=0.167 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:25:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:25:21 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.158 s, sync=0.002 s, total=0.173 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:30:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:30:21 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.289 s, sync=0.002 s, total=0.302 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:35:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:35:21 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.155 s, sync=0.002 s, total=0.168 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:40:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:40:22 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.154 s, sync=0.002 s, total=0.167 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:45:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:45:21 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.002 s, total=0.112 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-15 19:50:21 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:50:21 UTC::@:[3543]:LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.403 s, sync=0.002 s, total=0.416 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16399 kB, estimate=16399 kB
+2018-11-15 19:55:22 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-15 19:55:22 UTC::@:[3543]:LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 2 recycled; write=0.254 s, sync=0.003 s, total=0.271 s; sync files=2, longest=0.003 s, average=0.001 s; distance=16366 kB, estimate=16396 kB

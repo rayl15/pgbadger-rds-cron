@@ -1,0 +1,90 @@
+2018-11-16 12:02:38 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:03:14 UTC::@:[27723]:LOG:  checkpoint complete: wrote 360 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=36.394 s, sync=0.002 s, total=36.409 s; sync files=49, longest=0.002 s, average=0.000 s; distance=17085 kB, estimate=17085 kB
+2018-11-16 12:07:38 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:08:16 UTC::@:[27723]:LOG:  checkpoint complete: wrote 372 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=37.643 s, sync=0.002 s, total=37.657 s; sync files=46, longest=0.002 s, average=0.000 s; distance=16113 kB, estimate=16987 kB
+2018-11-16 12:12:38 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:13:19 UTC::@:[27723]:LOG:  checkpoint complete: wrote 403 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=40.818 s, sync=0.004 s, total=40.834 s; sync files=61, longest=0.003 s, average=0.000 s; distance=16539 kB, estimate=16943 kB
+2018-11-16 12:17:38 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:18:04 UTC::@:[27723]:LOG:  checkpoint complete: wrote 263 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=26.603 s, sync=0.030 s, total=26.706 s; sync files=47, longest=0.030 s, average=0.000 s; distance=15528 kB, estimate=16801 kB
+2018-11-16 12:22:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:23:13 UTC::@:[27723]:LOG:  checkpoint complete: wrote 338 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=34.213 s, sync=0.003 s, total=34.231 s; sync files=53, longest=0.003 s, average=0.000 s; distance=15901 kB, estimate=16711 kB
+2018-11-16 12:25:28 UTC:10.140.0.250(60344):relayhealth@relayhealth:[28819]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:25:28 UTC:10.140.0.250(60344):relayhealth@relayhealth:[28819]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 12:26:31 UTC:10.140.0.250(60364):relayhealth@relayhealth:[29386]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:26:31 UTC:10.140.0.250(60364):relayhealth@relayhealth:[29386]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 12:27:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:28:19 UTC::@:[27723]:LOG:  checkpoint complete: wrote 394 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=39.809 s, sync=0.002 s, total=39.823 s; sync files=56, longest=0.002 s, average=0.000 s; distance=17491 kB, estimate=17491 kB
+2018-11-16 12:28:29 UTC:10.140.0.250(60402):relayhealth@relayhealth:[30614]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:28:29 UTC:10.140.0.250(60402):relayhealth@relayhealth:[30614]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 12:28:31 UTC:10.140.0.29(57588):relayhealth@relayhealth:[30510]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57586):relayhealth@relayhealth:[30509]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57584):relayhealth@relayhealth:[30508]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57582):relayhealth@relayhealth:[30507]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57260):relayhealth@relayhealth:[29298]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57258):relayhealth@relayhealth:[29297]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57580):relayhealth@relayhealth:[30506]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57256):relayhealth@relayhealth:[29296]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57254):relayhealth@relayhealth:[29295]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56704):relayhealth@relayhealth:[27628]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57252):relayhealth@relayhealth:[29294]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56482):relayhealth@relayhealth:[26975]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57578):relayhealth@relayhealth:[30505]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57576):relayhealth@relayhealth:[30504]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57350):relayhealth@relayhealth:[29856]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56398):relayhealth@relayhealth:[26443]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56476):relayhealth@relayhealth:[26972]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56942):relayhealth@relayhealth:[28194]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57248):relayhealth@relayhealth:[29292]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57094):relayhealth@relayhealth:[28757]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57572):relayhealth@relayhealth:[30501]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57570):relayhealth@relayhealth:[30500]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(56708):relayhealth@relayhealth:[27631]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57262):relayhealth@relayhealth:[29299]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57346):relayhealth@relayhealth:[29854]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:28:31 UTC:10.140.0.29(57568):relayhealth@relayhealth:[30503]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 12:32:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:33:22 UTC::@:[27723]:LOG:  checkpoint complete: wrote 424 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=42.832 s, sync=0.002 s, total=42.846 s; sync files=52, longest=0.001 s, average=0.000 s; distance=16381 kB, estimate=17380 kB
+2018-11-16 12:37:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:38:10 UTC::@:[27723]:LOG:  checkpoint complete: wrote 314 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=31.713 s, sync=0.002 s, total=31.727 s; sync files=48, longest=0.002 s, average=0.000 s; distance=16532 kB, estimate=17295 kB
+2018-11-16 12:42:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:43:18 UTC::@:[27723]:LOG:  checkpoint complete: wrote 375 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=37.942 s, sync=0.007 s, total=38.018 s; sync files=71, longest=0.007 s, average=0.000 s; distance=16617 kB, estimate=17227 kB
+2018-11-16 12:47:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:48:17 UTC::@:[27723]:LOG:  checkpoint complete: wrote 380 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=38.434 s, sync=0.003 s, total=38.450 s; sync files=53, longest=0.003 s, average=0.000 s; distance=16302 kB, estimate=17135 kB
+2018-11-16 12:52:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:53:18 UTC::@:[27723]:LOG:  checkpoint complete: wrote 379 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=38.393 s, sync=0.003 s, total=38.413 s; sync files=55, longest=0.003 s, average=0.000 s; distance=16198 kB, estimate=17041 kB
+2018-11-16 12:55:28 UTC:10.140.0.250(60888):relayhealth@relayhealth:[13724]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:55:28 UTC:10.140.0.250(60888):relayhealth@relayhealth:[13724]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 12:56:29 UTC:10.140.0.250(60910):relayhealth@relayhealth:[14266]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:56:29 UTC:10.140.0.250(60910):relayhealth@relayhealth:[14266]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 12:57:39 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 12:58:08 UTC::@:[27723]:LOG:  checkpoint complete: wrote 288 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=29.151 s, sync=0.002 s, total=29.165 s; sync files=46, longest=0.002 s, average=0.000 s; distance=15398 kB, estimate=16877 kB
+2018-11-16 12:58:21 UTC:10.140.0.29(33682):relayhealth@relayhealth:[13105]:ERROR:  column user.role does not exist at character 375
+2018-11-16 12:58:21 UTC:10.140.0.29(33682):relayhealth@relayhealth:[13105]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-15 14:00:00.062 +00:00' AND "user"."createdAt" >= '2018-11-15 13:00:00.062 +00:00');
+2018-11-16 12:58:21 UTC:10.140.0.29(60320):relayhealth@relayhealth:[7339]:ERROR:  column user.role does not exist at character 375
+2018-11-16 12:58:21 UTC:10.140.0.29(60320):relayhealth@relayhealth:[7339]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-14 14:00:00.063 +00:00' AND "user"."createdAt" >= '2018-11-14 13:00:00.063 +00:00');
+2018-11-16 12:58:31 UTC:10.140.0.250(60954):relayhealth@relayhealth:[15532]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 12:58:31 UTC:10.140.0.250(60954):relayhealth@relayhealth:[15532]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')

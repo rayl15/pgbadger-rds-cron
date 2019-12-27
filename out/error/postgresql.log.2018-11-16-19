@@ -1,0 +1,27 @@
+2018-11-16 19:00:12 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:00:12 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.153 s, sync=0.004 s, total=0.169 s; sync files=1, longest=0.004 s, average=0.004 s; distance=16384 kB, estimate=16385 kB
+2018-11-16 19:05:12 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:05:12 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.155 s, sync=0.002 s, total=0.168 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16385 kB
+2018-11-16 19:09:19 UTC:ns303153.ip-94-23-193.eu(36766):postgres@postgres:[31817]:FATAL:  password authentication failed for user "postgres"
+2018-11-16 19:09:19 UTC:ns303153.ip-94-23-193.eu(36766):postgres@postgres:[31817]:DETAIL:  Role "postgres" does not exist.
+	Connection matched pg_hba.conf line 13: "host	all				all			0.0.0.0/0			md5"
+2018-11-16 19:10:13 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:10:13 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.154 s, sync=0.002 s, total=0.171 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16385 kB
+2018-11-16 19:15:13 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:15:13 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.156 s, sync=0.002 s, total=0.170 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:20:13 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:20:13 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.157 s, sync=0.002 s, total=0.170 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:25:13 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:25:13 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.153 s, sync=0.002 s, total=0.166 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:30:14 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:30:14 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.154 s, sync=0.002 s, total=0.167 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:35:14 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:35:14 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.154 s, sync=0.002 s, total=0.169 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:40:14 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:40:14 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.152 s, sync=0.002 s, total=0.166 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:45:14 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:45:14 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.153 s, sync=0.002 s, total=0.166 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:50:15 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:50:15 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.155 s, sync=0.002 s, total=0.168 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB
+2018-11-16 19:55:15 UTC::@:[3543]:LOG:  checkpoint starting: time
+2018-11-16 19:55:15 UTC::@:[3543]:LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.151 s, sync=0.002 s, total=0.164 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16384 kB, estimate=16384 kB

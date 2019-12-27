@@ -1,0 +1,26 @@
+2018-11-18 03:03:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:03:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 28 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=3.044 s, sync=0.005 s, total=3.083 s; sync files=12, longest=0.005 s, average=0.000 s; distance=14126 kB, estimate=18147 kB
+2018-11-18 03:08:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:08:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.705 s, sync=0.002 s, total=0.718 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16244 kB, estimate=17957 kB
+2018-11-18 03:11:52 UTC:10.140.0.152(42824):relayhealth@relayhealth:[27094]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-18 03:11:52 UTC:10.140.0.152(42820):relayhealth@relayhealth:[27091]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-18 03:13:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:13:45 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.706 s, sync=0.002 s, total=0.720 s; sync files=5, longest=0.002 s, average=0.000 s; distance=16380 kB, estimate=17799 kB
+2018-11-18 03:18:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:18:57 UTC::@:[27723]:LOG:  checkpoint complete: wrote 120 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=12.231 s, sync=0.004 s, total=12.254 s; sync files=21, longest=0.004 s, average=0.000 s; distance=17132 kB, estimate=17733 kB
+2018-11-18 03:23:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:23:50 UTC::@:[27723]:LOG:  checkpoint complete: wrote 52 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=5.354 s, sync=0.002 s, total=5.369 s; sync files=10, longest=0.002 s, average=0.000 s; distance=15945 kB, estimate=17554 kB
+2018-11-18 03:28:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:28:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 25 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.639 s, sync=0.004 s, total=2.655 s; sync files=12, longest=0.004 s, average=0.000 s; distance=16193 kB, estimate=17418 kB
+2018-11-18 03:33:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:33:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 11 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=1.109 s, sync=0.002 s, total=1.123 s; sync files=5, longest=0.002 s, average=0.000 s; distance=16296 kB, estimate=17306 kB
+2018-11-18 03:38:46 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:38:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.706 s, sync=0.002 s, total=0.721 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16354 kB, estimate=17210 kB
+2018-11-18 03:43:46 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:43:49 UTC::@:[27723]:LOG:  checkpoint complete: wrote 20 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=2.138 s, sync=0.004 s, total=2.156 s; sync files=4, longest=0.004 s, average=0.001 s; distance=16487 kB, estimate=17138 kB
+2018-11-18 03:48:46 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:48:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 25 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.637 s, sync=0.003 s, total=2.652 s; sync files=12, longest=0.003 s, average=0.000 s; distance=16396 kB, estimate=17064 kB
+2018-11-18 03:53:46 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:53:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.806 s, sync=0.002 s, total=0.819 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16278 kB, estimate=16985 kB
+2018-11-18 03:58:46 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 03:59:12 UTC::@:[27723]:LOG:  checkpoint complete: wrote 257 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=25.964 s, sync=0.002 s, total=25.980 s; sync files=50, longest=0.001 s, average=0.000 s; distance=18794 kB, estimate=18794 kB

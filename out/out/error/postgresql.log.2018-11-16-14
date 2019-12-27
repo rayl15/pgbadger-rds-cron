@@ -1,0 +1,46 @@
+2018-11-16 14:02:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:03:31 UTC::@:[27723]:LOG:  checkpoint complete: wrote 502 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=50.692 s, sync=0.002 s, total=50.707 s; sync files=108, longest=0.002 s, average=0.000 s; distance=16827 kB, estimate=17439 kB
+2018-11-16 14:07:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:08:23 UTC::@:[27723]:LOG:  checkpoint complete: wrote 414 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=41.740 s, sync=0.004 s, total=41.758 s; sync files=98, longest=0.004 s, average=0.000 s; distance=16150 kB, estimate=17310 kB
+2018-11-16 14:12:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:13:22 UTC::@:[27723]:LOG:  checkpoint complete: wrote 400 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=40.314 s, sync=0.002 s, total=40.328 s; sync files=72, longest=0.002 s, average=0.000 s; distance=16176 kB, estimate=17197 kB
+2018-11-16 14:17:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:18:25 UTC::@:[27723]:LOG:  checkpoint complete: wrote 439 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=44.443 s, sync=0.003 s, total=44.458 s; sync files=94, longest=0.003 s, average=0.000 s; distance=16612 kB, estimate=17138 kB
+2018-11-16 14:22:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:23:33 UTC::@:[27723]:LOG:  checkpoint complete: wrote 518 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=52.317 s, sync=0.002 s, total=52.331 s; sync files=108, longest=0.002 s, average=0.000 s; distance=15829 kB, estimate=17007 kB
+2018-11-16 14:25:28 UTC:10.140.0.250(33718):relayhealth@relayhealth:[1589]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 14:25:28 UTC:10.140.0.250(33718):relayhealth@relayhealth:[1589]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 14:26:35 UTC:10.140.0.250(33740):relayhealth@relayhealth:[2215]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 14:26:35 UTC:10.140.0.250(33740):relayhealth@relayhealth:[2215]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 14:27:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:28:25 UTC::@:[27723]:LOG:  checkpoint complete: wrote 431 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=43.527 s, sync=0.000 s, total=43.540 s; sync files=67, longest=0.000 s, average=0.000 s; distance=16399 kB, estimate=16946 kB
+2018-11-16 14:28:38 UTC:10.140.0.250(33778):relayhealth@relayhealth:[3520]:ERROR:  missing FROM-clause entry for table "r" at character 143
+2018-11-16 14:28:38 UTC:10.140.0.250(33778):relayhealth@relayhealth:[3520]:STATEMENT:  update ride_details set ride_status = '24 Hour Confirmation Missing' FROM vendor_list_details
+	 where EXTRACT(epoch FROM (NOW() - to_timestamp(r.pickup_date_time))) BETWEEN 50400 AND 57600
+	 and ride_details.id=vendor_list_details.ride_id
+	 and ride_details.ride_status='Confirmed'
+	 and vendor_list_details.status NOT IN ('8','9')
+2018-11-16 14:32:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:33:29 UTC::@:[27723]:LOG:  checkpoint complete: wrote 475 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=47.868 s, sync=0.004 s, total=47.886 s; sync files=112, longest=0.004 s, average=0.000 s; distance=17096 kB, estimate=17096 kB
+2018-11-16 14:37:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:38:23 UTC::@:[27723]:LOG:  checkpoint complete: wrote 417 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=42.228 s, sync=0.007 s, total=42.310 s; sync files=81, longest=0.007 s, average=0.000 s; distance=15965 kB, estimate=16983 kB
+2018-11-16 14:42:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:43:24 UTC::@:[27723]:LOG:  checkpoint complete: wrote 420 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=42.524 s, sync=0.002 s, total=42.544 s; sync files=72, longest=0.002 s, average=0.000 s; distance=16561 kB, estimate=16941 kB
+2018-11-16 14:47:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:48:36 UTC::@:[27723]:LOG:  checkpoint complete: wrote 532 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=53.602 s, sync=0.002 s, total=53.617 s; sync files=97, longest=0.002 s, average=0.000 s; distance=16514 kB, estimate=16898 kB
+2018-11-16 14:52:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:53:23 UTC::@:[27723]:LOG:  checkpoint complete: wrote 409 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=41.468 s, sync=0.004 s, total=41.485 s; sync files=84, longest=0.004 s, average=0.000 s; distance=16093 kB, estimate=16817 kB
+2018-11-16 14:57:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 14:58:21 UTC:10.140.0.29(56160):relayhealth@relayhealth:[20305]:ERROR:  column user.role does not exist at character 375
+2018-11-16 14:58:21 UTC:10.140.0.29(56160):relayhealth@relayhealth:[20305]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-15 16:00:00.044 +00:00' AND "user"."createdAt" >= '2018-11-15 15:00:00.044 +00:00');
+2018-11-16 14:58:21 UTC:10.140.0.29(55574):relayhealth@relayhealth:[18080]:ERROR:  column user.role does not exist at character 375
+2018-11-16 14:58:21 UTC:10.140.0.29(55574):relayhealth@relayhealth:[18080]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-14 16:00:00.044 +00:00' AND "user"."createdAt" >= '2018-11-14 15:00:00.044 +00:00');
+2018-11-16 14:58:30 UTC::@:[27723]:LOG:  checkpoint complete: wrote 472 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=47.719 s, sync=0.000 s, total=47.731 s; sync files=69, longest=0.000 s, average=0.000 s; distance=15235 kB, estimate=16659 kB

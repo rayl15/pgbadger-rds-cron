@@ -1,0 +1,24 @@
+2018-11-18 13:02:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:02:44 UTC::@:[27723]:LOG:  checkpoint complete: wrote 37 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=3.729 s, sync=0.002 s, total=3.742 s; sync files=6, longest=0.002 s, average=0.000 s; distance=13619 kB, estimate=18765 kB
+2018-11-18 13:07:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:07:43 UTC::@:[27723]:LOG:  checkpoint complete: wrote 24 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.417 s, sync=0.003 s, total=2.433 s; sync files=12, longest=0.003 s, average=0.000 s; distance=16304 kB, estimate=18519 kB
+2018-11-18 13:12:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:12:43 UTC::@:[27723]:LOG:  checkpoint complete: wrote 25 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.517 s, sync=0.003 s, total=2.532 s; sync files=13, longest=0.003 s, average=0.000 s; distance=16390 kB, estimate=18306 kB
+2018-11-18 13:17:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:17:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.705 s, sync=0.002 s, total=0.720 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16258 kB, estimate=18101 kB
+2018-11-18 13:22:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:22:42 UTC::@:[27723]:LOG:  checkpoint complete: wrote 20 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.013 s, sync=0.002 s, total=2.028 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16489 kB, estimate=17940 kB
+2018-11-18 13:27:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:27:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.705 s, sync=0.002 s, total=0.720 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16281 kB, estimate=17774 kB
+2018-11-18 13:32:40 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:32:42 UTC::@:[27723]:LOG:  checkpoint complete: wrote 22 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.215 s, sync=0.002 s, total=2.229 s; sync files=5, longest=0.002 s, average=0.000 s; distance=16501 kB, estimate=17647 kB
+2018-11-18 13:37:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:37:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.806 s, sync=0.002 s, total=0.822 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16272 kB, estimate=17509 kB
+2018-11-18 13:42:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:42:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.806 s, sync=0.002 s, total=0.820 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16384 kB, estimate=17397 kB
+2018-11-18 13:47:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:47:43 UTC::@:[27723]:LOG:  checkpoint complete: wrote 20 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=2.014 s, sync=0.003 s, total=2.029 s; sync files=4, longest=0.003 s, average=0.000 s; distance=16481 kB, estimate=17305 kB
+2018-11-18 13:52:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:52:42 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.807 s, sync=0.002 s, total=0.821 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16287 kB, estimate=17204 kB
+2018-11-18 13:57:41 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 13:58:17 UTC::@:[27723]:LOG:  checkpoint complete: wrote 351 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=35.459 s, sync=0.003 s, total=35.478 s; sync files=56, longest=0.003 s, average=0.000 s; distance=19325 kB, estimate=19325 kB

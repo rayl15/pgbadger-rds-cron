@@ -1,0 +1,25 @@
+2018-11-18 01:03:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:03:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.806 s, sync=0.002 s, total=0.820 s; sync files=5, longest=0.002 s, average=0.000 s; distance=13900 kB, estimate=18266 kB
+2018-11-18 01:08:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:08:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.705 s, sync=0.012 s, total=0.741 s; sync files=4, longest=0.012 s, average=0.003 s; distance=16376 kB, estimate=18077 kB
+2018-11-18 01:13:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:13:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 21 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=2.247 s, sync=0.003 s, total=2.264 s; sync files=5, longest=0.003 s, average=0.000 s; distance=16496 kB, estimate=17919 kB
+2018-11-18 01:15:18 UTC:10.140.0.152(49166):relayhealth@relayhealth:[26751]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-18 01:18:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:18:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 9 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.907 s, sync=0.002 s, total=0.920 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16291 kB, estimate=17756 kB
+2018-11-18 01:23:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:23:50 UTC::@:[27723]:LOG:  checkpoint complete: wrote 45 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=4.652 s, sync=0.001 s, total=4.668 s; sync files=17, longest=0.001 s, average=0.000 s; distance=16631 kB, estimate=17643 kB
+2018-11-18 01:28:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:28:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.605 s, sync=0.002 s, total=0.618 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16111 kB, estimate=17490 kB
+2018-11-18 01:33:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:33:49 UTC::@:[27723]:LOG:  checkpoint complete: wrote 43 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=4.450 s, sync=0.004 s, total=4.468 s; sync files=34, longest=0.004 s, average=0.000 s; distance=16567 kB, estimate=17398 kB
+2018-11-18 01:38:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:38:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.706 s, sync=0.002 s, total=0.719 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16208 kB, estimate=17279 kB
+2018-11-18 01:43:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:43:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 26 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=2.766 s, sync=0.003 s, total=2.788 s; sync files=12, longest=0.003 s, average=0.000 s; distance=16507 kB, estimate=17202 kB
+2018-11-18 01:48:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:48:46 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.806 s, sync=0.002 s, total=0.820 s; sync files=4, longest=0.002 s, average=0.000 s; distance=16271 kB, estimate=17108 kB
+2018-11-18 01:53:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:53:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 25 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=2.637 s, sync=0.003 s, total=2.654 s; sync files=12, longest=0.003 s, average=0.000 s; distance=16492 kB, estimate=17047 kB
+2018-11-18 01:58:45 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 01:59:15 UTC::@:[27723]:LOG:  checkpoint complete: wrote 299 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=30.209 s, sync=0.002 s, total=30.223 s; sync files=50, longest=0.002 s, average=0.000 s; distance=18863 kB, estimate=18863 kB

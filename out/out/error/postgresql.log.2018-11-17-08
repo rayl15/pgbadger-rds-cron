@@ -1,0 +1,44 @@
+2018-11-17 08:03:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:03:45 UTC:10.140.0.29(58172):relayhealth@relayhealth:[31298]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58208):relayhealth@relayhealth:[31819]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58206):relayhealth@relayhealth:[31818]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56674):relayhealth@relayhealth:[30764]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56672):relayhealth@relayhealth:[30763]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56670):relayhealth@relayhealth:[30762]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58204):relayhealth@relayhealth:[31817]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58202):relayhealth@relayhealth:[31816]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56678):relayhealth@relayhealth:[30766]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56682):relayhealth@relayhealth:[30768]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58168):relayhealth@relayhealth:[31296]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56684):relayhealth@relayhealth:[30769]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58166):relayhealth@relayhealth:[31295]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(54878):relayhealth@relayhealth:[25431]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58164):relayhealth@relayhealth:[31294]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58200):relayhealth@relayhealth:[31815]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56642):relayhealth@relayhealth:[30121]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58162):relayhealth@relayhealth:[31293]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(58198):relayhealth@relayhealth:[31814]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:03:45 UTC:10.140.0.29(56638):relayhealth@relayhealth:[30119]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 08:04:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 658 buffers (0.6%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=65.849 s, sync=0.003 s, total=65.872 s; sync files=70, longest=0.003 s, average=0.000 s; distance=16302 kB, estimate=18230 kB
+2018-11-17 08:08:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:08:36 UTC::@:[27723]:LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.830 s, sync=0.003 s, total=0.845 s; sync files=5, longest=0.003 s, average=0.000 s; distance=11796 kB, estimate=17586 kB
+2018-11-17 08:13:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:13:36 UTC::@:[27723]:LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.605 s, sync=0.003 s, total=0.618 s; sync files=4, longest=0.003 s, average=0.000 s; distance=16385 kB, estimate=17466 kB
+2018-11-17 08:18:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:18:36 UTC::@:[27723]:LOG:  checkpoint complete: wrote 10 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=1.128 s, sync=0.003 s, total=1.147 s; sync files=5, longest=0.003 s, average=0.000 s; distance=16411 kB, estimate=17361 kB
+2018-11-17 08:23:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:23:39 UTC::@:[27723]:LOG:  checkpoint complete: wrote 42 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=4.347 s, sync=0.004 s, total=4.363 s; sync files=34, longest=0.004 s, average=0.000 s; distance=16504 kB, estimate=17275 kB
+2018-11-17 08:28:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:28:37 UTC::@:[27723]:LOG:  checkpoint complete: wrote 10 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=1.129 s, sync=0.003 s, total=1.144 s; sync files=4, longest=0.003 s, average=0.000 s; distance=16272 kB, estimate=17175 kB
+2018-11-17 08:33:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:33:41 UTC::@:[27723]:LOG:  checkpoint complete: wrote 60 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=6.161 s, sync=0.002 s, total=6.176 s; sync files=41, longest=0.002 s, average=0.000 s; distance=16575 kB, estimate=17115 kB
+2018-11-17 08:38:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:38:36 UTC::@:[27723]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.928 s, sync=0.002 s, total=0.941 s; sync files=5, longest=0.002 s, average=0.000 s; distance=16165 kB, estimate=17020 kB
+2018-11-17 08:43:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:43:39 UTC::@:[27723]:LOG:  checkpoint complete: wrote 42 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=4.348 s, sync=0.003 s, total=4.364 s; sync files=34, longest=0.003 s, average=0.000 s; distance=16525 kB, estimate=16970 kB
+2018-11-17 08:48:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:48:37 UTC::@:[27723]:LOG:  checkpoint complete: wrote 11 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=1.229 s, sync=0.003 s, total=1.243 s; sync files=6, longest=0.003 s, average=0.000 s; distance=16268 kB, estimate=16900 kB
+2018-11-17 08:53:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:53:42 UTC::@:[27723]:LOG:  checkpoint complete: wrote 72 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=7.366 s, sync=0.004 s, total=7.382 s; sync files=43, longest=0.004 s, average=0.000 s; distance=16660 kB, estimate=16876 kB
+2018-11-17 08:58:35 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 08:59:04 UTC::@:[27723]:LOG:  checkpoint complete: wrote 283 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=28.640 s, sync=0.004 s, total=28.656 s; sync files=57, longest=0.004 s, average=0.000 s; distance=18655 kB, estimate=18655 kB

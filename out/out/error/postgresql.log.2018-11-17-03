@@ -1,0 +1,30 @@
+2018-11-17 03:03:03 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:04:08 UTC::@:[27723]:LOG:  checkpoint complete: wrote 651 buffers (0.6%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=65.641 s, sync=0.002 s, total=65.656 s; sync files=63, longest=0.002 s, average=0.000 s; distance=16450 kB, estimate=18591 kB
+2018-11-17 03:08:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:09:03 UTC::@:[27723]:LOG:  checkpoint complete: wrote 585 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=59.018 s, sync=0.002 s, total=59.032 s; sync files=62, longest=0.002 s, average=0.000 s; distance=16220 kB, estimate=18354 kB
+2018-11-17 03:13:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:14:05 UTC::@:[27723]:LOG:  checkpoint complete: wrote 612 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=61.797 s, sync=0.003 s, total=61.813 s; sync files=71, longest=0.002 s, average=0.000 s; distance=16337 kB, estimate=18152 kB
+2018-11-17 03:18:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:19:02 UTC::@:[27723]:LOG:  checkpoint complete: wrote 574 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=57.685 s, sync=0.004 s, total=57.703 s; sync files=62, longest=0.004 s, average=0.000 s; distance=16513 kB, estimate=17989 kB
+2018-11-17 03:23:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:24:08 UTC::@:[27723]:LOG:  checkpoint complete: wrote 634 buffers (0.6%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=63.911 s, sync=0.003 s, total=63.939 s; sync files=62, longest=0.003 s, average=0.000 s; distance=16183 kB, estimate=17808 kB
+2018-11-17 03:28:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:29:12 UTC::@:[27723]:LOG:  checkpoint complete: wrote 672 buffers (0.6%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=67.732 s, sync=0.002 s, total=67.746 s; sync files=70, longest=0.002 s, average=0.000 s; distance=16884 kB, estimate=17716 kB
+2018-11-17 03:33:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:34:06 UTC::@:[27723]:LOG:  checkpoint complete: wrote 609 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=61.510 s, sync=0.002 s, total=61.543 s; sync files=65, longest=0.002 s, average=0.000 s; distance=15942 kB, estimate=17538 kB
+2018-11-17 03:38:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:39:04 UTC::@:[27723]:LOG:  checkpoint complete: wrote 601 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=60.617 s, sync=0.003 s, total=60.632 s; sync files=63, longest=0.003 s, average=0.000 s; distance=16155 kB, estimate=17400 kB
+2018-11-17 03:43:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:44:03 UTC::@:[27723]:LOG:  checkpoint complete: wrote 581 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=58.377 s, sync=0.002 s, total=58.391 s; sync files=72, longest=0.002 s, average=0.000 s; distance=16737 kB, estimate=17334 kB
+2018-11-17 03:48:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:49:02 UTC::@:[27723]:LOG:  checkpoint complete: wrote 572 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=57.691 s, sync=0.004 s, total=57.709 s; sync files=62, longest=0.004 s, average=0.000 s; distance=16076 kB, estimate=17208 kB
+2018-11-17 03:53:04 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:53:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 431 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=43.725 s, sync=0.003 s, total=43.740 s; sync files=59, longest=0.003 s, average=0.000 s; distance=15380 kB, estimate=17025 kB
+2018-11-17 03:55:19 UTC:10.140.0.152(58220):relayhealth@relayhealth:[19718]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 03:55:19 UTC:10.140.0.152(58218):relayhealth@relayhealth:[19717]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-17 03:58:05 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-17 03:58:19 UTC:10.140.0.29(38020):relayhealth@relayhealth:[20785]:ERROR:  column user.role does not exist at character 375
+2018-11-17 03:58:19 UTC:10.140.0.29(38020):relayhealth@relayhealth:[20785]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-16 05:00:00.044 +00:00' AND "user"."createdAt" >= '2018-11-16 04:00:00.044 +00:00');
+2018-11-17 03:58:19 UTC:10.140.0.29(38024):relayhealth@relayhealth:[20787]:ERROR:  column user.role does not exist at character 375
+2018-11-17 03:58:19 UTC:10.140.0.29(38024):relayhealth@relayhealth:[20787]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-15 05:00:00.044 +00:00' AND "user"."createdAt" >= '2018-11-15 04:00:00.044 +00:00');
+2018-11-17 03:58:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 431 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=43.683 s, sync=0.006 s, total=43.736 s; sync files=46, longest=0.005 s, average=0.000 s; distance=15623 kB, estimate=16885 kB

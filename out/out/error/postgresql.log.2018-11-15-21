@@ -1,0 +1,74 @@
+2018-11-15 21:02:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:03:05 UTC::@:[27723]:LOG:  checkpoint complete: wrote 72 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=7.263 s, sync=0.002 s, total=7.278 s; sync files=35, longest=0.002 s, average=0.000 s; distance=15621 kB, estimate=16787 kB
+2018-11-15 21:07:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:08:05 UTC::@:[27723]:LOG:  checkpoint complete: wrote 69 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=6.975 s, sync=0.002 s, total=6.988 s; sync files=32, longest=0.002 s, average=0.000 s; distance=16628 kB, estimate=16771 kB
+2018-11-15 21:12:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:13:06 UTC::@:[27723]:LOG:  checkpoint complete: wrote 83 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=8.376 s, sync=0.003 s, total=8.392 s; sync files=41, longest=0.003 s, average=0.000 s; distance=16260 kB, estimate=16720 kB
+2018-11-15 21:17:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:18:12 UTC::@:[27723]:LOG:  checkpoint complete: wrote 140 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=14.125 s, sync=0.004 s, total=14.148 s; sync files=51, longest=0.004 s, average=0.000 s; distance=16658 kB, estimate=16714 kB
+2018-11-15 21:22:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:23:12 UTC::@:[27723]:LOG:  checkpoint complete: wrote 142 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=14.348 s, sync=0.003 s, total=14.362 s; sync files=90, longest=0.003 s, average=0.000 s; distance=16396 kB, estimate=16682 kB
+2018-11-15 21:27:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:28:21 UTC::@:[27723]:LOG:  checkpoint complete: wrote 228 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=22.999 s, sync=0.002 s, total=23.013 s; sync files=61, longest=0.002 s, average=0.000 s; distance=16638 kB, estimate=16678 kB
+2018-11-15 21:32:43 UTC:10.140.0.198(33872):relayhealth@relayhealth:[27348]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.198(33872):relayhealth@relayhealth:[27348]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.198(33872):relayhealth@relayhealth:[27348]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:33:30.732 +00:00','2018-11-15 21:33:30.732 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.152(35568):relayhealth@relayhealth:[27386]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.152(35568):relayhealth@relayhealth:[27386]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.152(35568):relayhealth@relayhealth:[27386]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:32:56.442 +00:00','2018-11-15 21:32:56.442 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.152(35480):relayhealth@relayhealth:[27361]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.152(35480):relayhealth@relayhealth:[27361]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.152(35480):relayhealth@relayhealth:[27361]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:32:56.449 +00:00','2018-11-15 21:32:56.449 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.152(35494):relayhealth@relayhealth:[27365]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.152(35494):relayhealth@relayhealth:[27365]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.152(35494):relayhealth@relayhealth:[27365]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:32:56.490 +00:00','2018-11-15 21:32:56.490 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:33:30.875 +00:00','2018-11-15 21:33:30.875 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.152(35484):relayhealth@relayhealth:[27362]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.152(35484):relayhealth@relayhealth:[27362]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.152(35484):relayhealth@relayhealth:[27362]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:32:56.587 +00:00','2018-11-15 21:32:56.587 +00:00') RETURNING *;
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:DETAIL:  Key (phone)=(12127474717) already exists.
+2018-11-15 21:32:43 UTC:10.140.0.198(33882):relayhealth@relayhealth:[27351]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('landline','12127474717','Verizon','US','2018-11-15 21:33:30.907 +00:00','2018-11-15 21:33:30.907 +00:00') RETURNING *;
+2018-11-15 21:32:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:33:24 UTC::@:[27723]:LOG:  checkpoint complete: wrote 258 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=26.064 s, sync=0.007 s, total=26.113 s; sync files=91, longest=0.006 s, average=0.000 s; distance=16730 kB, estimate=16730 kB
+2018-11-15 21:36:43 UTC:10.140.0.152(41964):relayhealth@relayhealth:[30350]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.152(41964):relayhealth@relayhealth:[30350]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.152(41964):relayhealth@relayhealth:[30350]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:36:56.655 +00:00','2018-11-15 21:36:56.655 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.152(42264):relayhealth@relayhealth:[30476]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.152(42264):relayhealth@relayhealth:[30476]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.152(42264):relayhealth@relayhealth:[30476]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:36:56.652 +00:00','2018-11-15 21:36:56.652 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.198(34804):relayhealth@relayhealth:[28013]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.198(34804):relayhealth@relayhealth:[28013]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.198(34804):relayhealth@relayhealth:[28013]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:37:30.958 +00:00','2018-11-15 21:37:30.958 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.198(37862):relayhealth@relayhealth:[30480]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.198(37862):relayhealth@relayhealth:[30480]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.198(37862):relayhealth@relayhealth:[30480]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:37:30.959 +00:00','2018-11-15 21:37:30.959 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.198(37854):relayhealth@relayhealth:[30479]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.198(37854):relayhealth@relayhealth:[30479]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.198(37854):relayhealth@relayhealth:[30479]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:37:30.976 +00:00','2018-11-15 21:37:30.976 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.152(42270):relayhealth@relayhealth:[30477]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.152(42270):relayhealth@relayhealth:[30477]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.152(42270):relayhealth@relayhealth:[30477]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:36:56.704 +00:00','2018-11-15 21:36:56.704 +00:00') RETURNING *;
+2018-11-15 21:36:43 UTC:10.140.0.152(42274):relayhealth@relayhealth:[30478]:ERROR:  duplicate key value violates unique constraint "phone_numbers_pkey"
+2018-11-15 21:36:43 UTC:10.140.0.152(42274):relayhealth@relayhealth:[30478]:DETAIL:  Key (phone)=(19404088912) already exists.
+2018-11-15 21:36:43 UTC:10.140.0.152(42274):relayhealth@relayhealth:[30478]:STATEMENT:  INSERT INTO "phone_numbers" ("type","phone","carrier","country_code","createdAt","updatedAt") VALUES ('mobile','19404088912',NULL,'US','2018-11-15 21:36:56.940 +00:00','2018-11-15 21:36:56.940 +00:00') RETURNING *;
+2018-11-15 21:37:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:38:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 478 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=48.284 s, sync=0.003 s, total=48.300 s; sync files=107, longest=0.003 s, average=0.000 s; distance=17395 kB, estimate=17395 kB
+2018-11-15 21:42:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:43:23 UTC::@:[27723]:LOG:  checkpoint complete: wrote 254 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=25.601 s, sync=0.002 s, total=25.613 s; sync files=66, longest=0.002 s, average=0.000 s; distance=15636 kB, estimate=17219 kB
+2018-11-15 21:47:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:48:33 UTC::@:[27723]:LOG:  checkpoint complete: wrote 346 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=35.032 s, sync=0.004 s, total=35.049 s; sync files=64, longest=0.004 s, average=0.000 s; distance=16549 kB, estimate=17152 kB
+2018-11-15 21:52:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:53:24 UTC::@:[27723]:LOG:  checkpoint complete: wrote 262 buffers (0.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=26.462 s, sync=0.001 s, total=26.508 s; sync files=67, longest=0.001 s, average=0.000 s; distance=15694 kB, estimate=17006 kB
+2018-11-15 21:54:35 UTC:10.140.0.152(36168):relayhealth@relayhealth:[8590]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-15 21:54:35 UTC:10.140.0.152(36152):relayhealth@relayhealth:[8550]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-15 21:54:35 UTC:10.140.0.152(35974):relayhealth@relayhealth:[8435]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-15 21:54:35 UTC:10.140.0.152(37232):relayhealth@relayhealth:[8985]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-15 21:57:58 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-15 21:58:23 UTC:10.140.0.29(43832):relayhealth@relayhealth:[7017]:ERROR:  column user.role does not exist at character 375
+2018-11-15 21:58:23 UTC:10.140.0.29(43832):relayhealth@relayhealth:[7017]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-14 23:00:00.046 +00:00' AND "user"."createdAt" >= '2018-11-14 22:00:00.046 +00:00');
+2018-11-15 21:58:23 UTC:10.140.0.29(44258):relayhealth@relayhealth:[8896]:ERROR:  column user.role does not exist at character 375
+2018-11-15 21:58:23 UTC:10.140.0.29(44258):relayhealth@relayhealth:[8896]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-13 23:00:00.048 +00:00' AND "user"."createdAt" >= '2018-11-13 22:00:00.048 +00:00');
+2018-11-15 21:58:40 UTC::@:[27723]:LOG:  checkpoint complete: wrote 413 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=41.710 s, sync=0.001 s, total=41.725 s; sync files=77, longest=0.001 s, average=0.000 s; distance=17815 kB, estimate=17815 kB

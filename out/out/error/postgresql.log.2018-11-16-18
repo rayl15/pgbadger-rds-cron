@@ -1,0 +1,38 @@
+2018-11-16 18:02:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:03:40 UTC::@:[27723]:LOG:  checkpoint complete: wrote 497 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=50.192 s, sync=0.004 s, total=50.207 s; sync files=65, longest=0.003 s, average=0.000 s; distance=16272 kB, estimate=16975 kB
+2018-11-16 18:07:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:08:40 UTC::@:[27723]:LOG:  checkpoint complete: wrote 493 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=49.771 s, sync=0.004 s, total=49.787 s; sync files=61, longest=0.004 s, average=0.000 s; distance=16347 kB, estimate=16912 kB
+2018-11-16 18:12:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:13:34 UTC::@:[27723]:LOG:  checkpoint complete: wrote 434 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=43.888 s, sync=0.003 s, total=43.904 s; sync files=78, longest=0.003 s, average=0.000 s; distance=16207 kB, estimate=16842 kB
+2018-11-16 18:17:03 UTC:10.140.0.198(35606):relayhealth@relayhealth:[8688]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:17:03 UTC:10.140.0.198(35608):relayhealth@relayhealth:[8689]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:17:03 UTC:10.140.0.198(35402):relayhealth@relayhealth:[8482]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:17:03 UTC:10.140.0.198(35408):relayhealth@relayhealth:[8487]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:17:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:18:39 UTC::@:[27723]:LOG:  checkpoint complete: wrote 483 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=48.877 s, sync=0.002 s, total=48.890 s; sync files=59, longest=0.002 s, average=0.000 s; distance=16109 kB, estimate=16769 kB
+2018-11-16 18:19:08 UTC:10.140.0.152(33016):relayhealth@relayhealth:[9902]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:19:08 UTC:10.140.0.152(33014):relayhealth@relayhealth:[9904]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:22:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:23:33 UTC::@:[27723]:LOG:  checkpoint complete: wrote 429 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=43.433 s, sync=0.003 s, total=43.448 s; sync files=61, longest=0.003 s, average=0.000 s; distance=16059 kB, estimate=16698 kB
+2018-11-16 18:27:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:28:35 UTC::@:[27723]:LOG:  checkpoint complete: wrote 446 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=44.950 s, sync=0.002 s, total=44.963 s; sync files=59, longest=0.001 s, average=0.000 s; distance=17303 kB, estimate=17303 kB
+2018-11-16 18:32:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:33:33 UTC::@:[27723]:LOG:  checkpoint complete: wrote 420 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=42.372 s, sync=0.002 s, total=42.385 s; sync files=57, longest=0.002 s, average=0.000 s; distance=15930 kB, estimate=17166 kB
+2018-11-16 18:37:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:38:38 UTC::@:[27723]:LOG:  checkpoint complete: wrote 478 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=48.367 s, sync=0.003 s, total=48.382 s; sync files=58, longest=0.003 s, average=0.000 s; distance=16165 kB, estimate=17066 kB
+2018-11-16 18:42:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:43:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 566 buffers (0.5%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=57.053 s, sync=0.002 s, total=57.068 s; sync files=107, longest=0.002 s, average=0.000 s; distance=17249 kB, estimate=17249 kB
+2018-11-16 18:47:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:48:33 UTC::@:[27723]:LOG:  checkpoint complete: wrote 425 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=42.862 s, sync=0.003 s, total=42.878 s; sync files=67, longest=0.002 s, average=0.000 s; distance=15767 kB, estimate=17100 kB
+2018-11-16 18:52:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:53:30 UTC::@:[27723]:LOG:  checkpoint complete: wrote 391 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=39.446 s, sync=0.002 s, total=39.460 s; sync files=57, longest=0.002 s, average=0.000 s; distance=15847 kB, estimate=16975 kB
+2018-11-16 18:56:24 UTC:10.140.0.198(33816):relayhealth@relayhealth:[31585]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:56:24 UTC:10.140.0.198(33874):relayhealth@relayhealth:[31589]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:56:24 UTC:10.140.0.198(33796):relayhealth@relayhealth:[31582]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:56:24 UTC:10.140.0.198(33577):relayhealth@relayhealth:[31376]:LOG:  could not receive data from client: Connection reset by peer
+2018-11-16 18:57:50 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-16 18:58:20 UTC:10.140.0.29(50182):relayhealth@relayhealth:[31194]:ERROR:  column user.role does not exist at character 375
+2018-11-16 18:58:20 UTC:10.140.0.29(50182):relayhealth@relayhealth:[31194]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-15 20:00:00.035 +00:00' AND "user"."createdAt" >= '2018-11-15 19:00:00.035 +00:00');
+2018-11-16 18:58:20 UTC:10.140.0.29(49202):relayhealth@relayhealth:[28288]:ERROR:  column user.role does not exist at character 375
+2018-11-16 18:58:20 UTC:10.140.0.29(49202):relayhealth@relayhealth:[28288]:STATEMENT:  SELECT "user"."id", "user"."username", "user"."first_name", "user"."last_name", "user"."usertoken", "user"."step", "organisation"."id" AS "organisation.id", "organisation"."created_by_user" AS "organisation.created_by_user" FROM "users" AS "user" LEFT OUTER JOIN "organisations" AS "organisation" ON "user"."default_org_id" = "organisation"."id" WHERE "user"."step" < 7 AND "user"."role" IN ('tempRider', 'tempBusiness') AND ("user"."createdAt" <= '2018-11-14 20:00:00.036 +00:00' AND "user"."createdAt" >= '2018-11-14 19:00:00.036 +00:00');
+2018-11-16 18:58:29 UTC::@:[27723]:LOG:  checkpoint complete: wrote 381 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=38.770 s, sync=0.004 s, total=38.786 s; sync files=50, longest=0.003 s, average=0.000 s; distance=16361 kB, estimate=16914 kB

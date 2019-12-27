@@ -1,0 +1,24 @@
+2018-11-18 15:02:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:02:44 UTC::@:[27723]:LOG:  checkpoint complete: wrote 16 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=1.611 s, sync=0.003 s, total=1.625 s; sync files=10, longest=0.003 s, average=0.000 s; distance=13328 kB, estimate=18493 kB
+2018-11-18 15:07:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:07:55 UTC::@:[27723]:LOG:  checkpoint complete: wrote 132 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=13.292 s, sync=0.003 s, total=13.310 s; sync files=80, longest=0.003 s, average=0.000 s; distance=16952 kB, estimate=18339 kB
+2018-11-18 15:12:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:12:48 UTC::@:[27723]:LOG:  checkpoint complete: wrote 63 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=6.346 s, sync=0.004 s, total=6.366 s; sync files=41, longest=0.004 s, average=0.000 s; distance=16096 kB, estimate=18114 kB
+2018-11-18 15:17:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:17:52 UTC::@:[27723]:LOG:  checkpoint complete: wrote 92 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=9.278 s, sync=0.004 s, total=9.295 s; sync files=75, longest=0.004 s, average=0.000 s; distance=16447 kB, estimate=17948 kB
+2018-11-18 15:22:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:22:44 UTC::@:[27723]:LOG:  checkpoint complete: wrote 18 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=1.812 s, sync=0.003 s, total=1.827 s; sync files=4, longest=0.003 s, average=0.000 s; distance=16079 kB, estimate=17761 kB
+2018-11-18 15:27:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:27:52 UTC::@:[27723]:LOG:  checkpoint complete: wrote 95 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=9.567 s, sync=0.006 s, total=9.587 s; sync files=74, longest=0.006 s, average=0.000 s; distance=16711 kB, estimate=17656 kB
+2018-11-18 15:32:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:32:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 53 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=5.341 s, sync=0.002 s, total=5.354 s; sync files=40, longest=0.001 s, average=0.000 s; distance=16220 kB, estimate=17512 kB
+2018-11-18 15:37:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:38:13 UTC::@:[27723]:LOG:  checkpoint complete: wrote 301 buffers (0.3%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=30.453 s, sync=0.004 s, total=30.470 s; sync files=86, longest=0.004 s, average=0.000 s; distance=17896 kB, estimate=17896 kB
+2018-11-18 15:42:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:42:43 UTC::@:[27723]:LOG:  checkpoint complete: wrote 9 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.907 s, sync=0.002 s, total=0.919 s; sync files=5, longest=0.002 s, average=0.000 s; distance=14631 kB, estimate=17569 kB
+2018-11-18 15:47:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:47:54 UTC::@:[27723]:LOG:  checkpoint complete: wrote 114 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=11.477 s, sync=0.003 s, total=11.544 s; sync files=76, longest=0.003 s, average=0.000 s; distance=16897 kB, estimate=17502 kB
+2018-11-18 15:52:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:52:47 UTC::@:[27723]:LOG:  checkpoint complete: wrote 50 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=5.045 s, sync=0.003 s, total=5.062 s; sync files=41, longest=0.003 s, average=0.000 s; distance=16081 kB, estimate=17360 kB
+2018-11-18 15:57:42 UTC::@:[27723]:LOG:  checkpoint starting: time
+2018-11-18 15:58:25 UTC::@:[27723]:LOG:  checkpoint complete: wrote 429 buffers (0.4%); 0 transaction log file(s) added, 0 removed, 2 recycled; write=43.278 s, sync=0.002 s, total=43.294 s; sync files=121, longest=0.002 s, average=0.000 s; distance=19180 kB, estimate=19180 kB
