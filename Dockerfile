@@ -1,8 +1,7 @@
-FROM canopytax/python-base
+FROM sourcefuse/pgview2:2018
 
-# install perl for pgbager
-RUN apk add --update perl && \
-    python3 -m pip install awscli && \
-    rm /var/cache/apk/*
+# Copy new Pgbadger
+
+COPY . .
 
 CMD ["./run.py"]
