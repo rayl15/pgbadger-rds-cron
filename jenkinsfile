@@ -1,0 +1,42 @@
+pipeline {
+  agent {
+    kubernetes {
+      yaml """
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: default
+  labels:
+    some-label: some-label-value
+spec:
+  containers:
+  - name: python
+    image: python
+    command:
+    - cat
+    tty: true
+    env:
+    - name: AWS_ACCESS_KEY_ID
+      valueFrom:
+        secretKeyRef:
+           name: python
+           key: AWS_ACCESS_KEY_ID
+    - name: AWS_SECRET_ACCESS_KEY
+      valueFrom:
+        secretKeyRef:
+           name: python
+           key: AWS_SECRET_ACCESS_KEY       
+"""
+    }
+  }
+  stages {
+    stage('Run python') {
+      steps {
+        container('python') {
+          sh 'pip install awscli'
+          sh 'aws s3 ls'
+        }
+      }
+    }
+  }
+}
